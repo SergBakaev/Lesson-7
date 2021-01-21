@@ -1,0 +1,12 @@
+public class Main {
+    public static void main(String[] args) {
+
+        Cat[] cats = { new Cat("Barsil",25), new Cat("Vaska", 15), new Cat("Pupsik", 25), new Cat("Tigr", 45)};
+        Plate plate = new Plate(100);
+
+        for(Cat cat : cats){
+            cat.eat(plate);
+            cat.info();
+        }
+    }
+}
